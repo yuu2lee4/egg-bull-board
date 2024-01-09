@@ -1,0 +1,49 @@
+{
+  "name": "@yuu2lee4/egg-bull-board",
+  "version": "0.0.1",
+  "description": "A Egg.js server adapter for Bull-Board dashboard.",
+  "keywords": [
+    "bull",
+    "bullmq",
+    "redis",
+    "eggjs",
+    "adapter",
+    "queue",
+    "monitoring",
+    "dashboard"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuu2lee4/egg-bull-board.git"
+  },
+  "license": "MIT",
+  "author": "yuu2lee4",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@bull-board/api": "5.11.0",
+    "@bull-board/ui": "5.11.0",
+    "ejs": "^3.1.7",
+    "koa": "^2.13.1",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3",
+    "@types/koa-mount": "^4.0.0",
+    "@types/koa-router": "^7.4.2",
+    "@types/koa-static": "^4.0.1",
+    "@types/koa-views": "^7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

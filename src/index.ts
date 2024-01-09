@@ -1,0 +1,1 @@
+export { EggAdapter } from './EggAdapter';
